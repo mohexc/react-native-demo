@@ -1,0 +1,57 @@
+Arguments: 
+  /Users/mohexc/.nvm/versions/node/v10.22.1/bin/node /usr/local/Cellar/yarn/1.22.5/libexec/bin/yarn.js install
+
+PATH: 
+  /Users/mohexc/.nvm/versions/node/v10.22.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/mohexc/.nvm/versions/node/v10.22.1/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  10.22.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://github.com/expo/react-native/archive/sdk-39.0.3.tar.gz: Request failed "504 Gateway Timeout"
+      at ResponseError.ExtendableBuiltin (/usr/local/Cellar/yarn/1.22.5/libexec/lib/cli.js:696:66)
+      at new ResponseError (/usr/local/Cellar/yarn/1.22.5/libexec/lib/cli.js:802:124)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.5/libexec/lib/cli.js:67058:16)
+      at Request.emit (events.js:198:13)
+      at Request.module.exports.Request.onRequestResponse (/usr/local/Cellar/yarn/1.22.5/libexec/lib/cli.js:141626:10)
+      at ClientRequest.emit (events.js:203:15)
+      at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:565:21)
+      at HTTPParser.parserOnHeadersComplete (_http_common.js:111:17)
+      at TLSSocket.socketOnData (_http_client.js:451:20)
+      at TLSSocket.emit (events.js:198:13)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "~39.0.2",
+      "expo-status-bar": "~1.0.2",
+      "react": "16.13.1",
+      "react-dom": "16.13.1",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.3.tar.gz",
+      "react-native-web": "~0.13.12"
+    },
+    "devDependencies": {
+      "@babel/core": "~7.9.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
