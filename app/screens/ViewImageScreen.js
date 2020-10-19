@@ -11,7 +11,6 @@ const ViewImageScreen = () => {
                 style={styles.image}
                 source={{ uri: "https://picsum.photos/500/600" }}
             />
-
         </View>
     )
 }
