@@ -1,11 +1,11 @@
 import React from 'react'
 import { View, StyleSheet, Text } from 'react-native'
+import AppText from '../components/AppText/AppText'
 
 const Styleling = () => {
     return (
         <View style={styles.container}>
             <View style={styles.box1}>
-
                 <View style={styles.border}></View>
                 <View style={styles.circle}></View>
                 <View style={styles.shadow1}></View>
@@ -16,7 +16,7 @@ const Styleling = () => {
             </View>
 
             <View style={styles.box2}>
-                <Text>I love react native</Text>
+                <AppText>I love React-Native</AppText>
             </View>
         </View>
 
@@ -98,6 +98,16 @@ const styles = StyleSheet.create({
         height: 50,
         backgroundColor: "gold",
 
+    },
+    text: {
+        // fontFamily: "Roboto",
+        fontSize: 30,
+        fontStyle: "italic",
+        fontWeight: "600",
+        color: "tomato",
+        textTransform: "capitalize",
+        textAlign: "center",
+        lineHeight: 30,
     }
 
 })
